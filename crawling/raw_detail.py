@@ -18,6 +18,10 @@ def create_driver(headless=False):
     driver = uc.Chrome(options=options)
     return driver
 
+def extract_listing_id_from_url(url):
+    match = re.search(r"-pr(\d+)", url)
+    return match.group(1) if match else None
+
 
 def load_page(driver, url, timeout=20):
     driver.get(url)
@@ -177,7 +181,6 @@ def parse_metadata(soup):
         "posted_date": None,
         "expired_date": None,
         "listing_type": None,
-        "listing_id": None
     }
 
     items = soup.find_all("div", class_="js__pr-config-item")
@@ -253,6 +256,7 @@ def scrape_listing(url, headless=False):
 
     data = {
         "url": url,
+        "listing_id":extract_listing_id_from_url(url),
         "scrape_time": datetime.utcnow().isoformat(),
         "title": parse_title(soup),
         "coordinates_text": parse_coordinates_text(soup),
@@ -272,7 +276,7 @@ def scrape_listing(url, headless=False):
 
 
 if __name__ == "__main__":
-    URL = "https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-phuoc-thien-phuong-long-binh-3-the-origami-vinhomes-grand-park/gio-hang-noi-bo-vua-bung-2pn-view-vuon-nhat-gia-soc-3-568-ty-nhan-nha-ngay-don-tet-2026-pr45140674"
+    URL = "https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-an-phu-masteri-park-place/suat-ngoai-giao-chiet-khau-22-ct5-global-city-chon-uu-tien-lien-he-truc-tiep-cdt-pr44361465"
 
     result = scrape_listing(URL, headless=False)
 
