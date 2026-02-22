@@ -2529,3 +2529,193 @@
 2026-02-14 13:03:37,049 | INFO | Page 1230 | Found: 30 | New: 19
 2026-02-14 13:03:39,051 | INFO | Crawling page 1231 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p1231
 2026-02-14 13:03:41,884 | INFO | Page 1231 | Found: 30 | New: 20
+2026-02-18 20:37:10,224 | INFO | Starting crawler from page 1232
+2026-02-18 20:37:14,699 | INFO | patching driver executable C:\Users\nguye\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-02-18 20:42:33,530 | INFO | Starting crawler from page 1232
+2026-02-18 20:42:40,116 | INFO | patching driver executable C:\Users\nguye\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-02-18 20:42:44,223 | INFO | Crawling page 1232 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p1232
+2026-02-18 20:42:49,589 | INFO | Page 1232 | Found: 30 | New: 9
+2026-02-18 20:42:51,591 | INFO | Crawling page 1233 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p1233
+2026-02-18 20:42:54,403 | INFO | Page 1233 | Found: 30 | New: 0
+2026-02-18 20:42:54,625 | INFO | Crawler finished
+2026-02-18 20:46:01,658 | INFO | Starting crawler from page 1233
+2026-02-18 20:46:02,490 | INFO | patching driver executable C:\Users\nguye\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-02-18 20:46:06,798 | INFO | Crawling page 1233 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p1233
+2026-02-18 20:46:13,213 | INFO | Page 1233 | Using selector: a.js__product-link-for-product-id | Raw elements: 30
+2026-02-18 20:46:13,344 | INFO | Page 1233 | New: 0
+2026-02-18 20:46:13,529 | INFO | Crawler finished
+2026-02-18 20:47:56,697 | INFO | Starting crawler from page 1233
+2026-02-18 20:48:00,988 | INFO | patching driver executable C:\Users\nguye\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-02-18 20:48:05,243 | INFO | Crawling page 1233 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p1233
+2026-02-18 20:48:16,931 | INFO | Page 1233 | Using selector: a.js__product-link-for-product-id | Raw elements: 30
+2026-02-18 20:48:17,063 | INFO | Page 1233 | New: 0
+2026-02-18 20:48:17,249 | INFO | Crawler finished
+2026-02-18 20:50:46,117 | INFO | Starting crawler from page 1
+2026-02-18 20:50:51,320 | INFO | patching driver executable C:\Users\nguye\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-02-18 20:50:55,799 | INFO | Crawling page 1 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm
+2026-02-18 20:52:12,238 | INFO | Starting crawler from page 1
+2026-02-18 20:52:26,030 | INFO | Crawling page 1 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm
+2026-02-18 20:52:32,392 | INFO | Page 1 | Using selector: a.js__product-link-for-product-id | Elements: 30
+2026-02-18 20:52:32,542 | INFO | Page 1 | New: 6
+2026-02-18 20:52:35,486 | INFO | Crawling page 2 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p2
+2026-02-18 20:52:39,314 | INFO | Page 2 | Using selector: a.js__product-link-for-product-id | Elements: 30
+2026-02-18 20:52:39,471 | INFO | Page 2 | New: 16
+2026-02-18 20:52:42,888 | INFO | Crawling page 3 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p3
+2026-02-18 20:52:46,531 | INFO | Page 3 | Using selector: a.js__product-link-for-product-id | Elements: 30
+2026-02-18 20:52:46,634 | INFO | Page 3 | New: 0
+2026-02-18 20:52:48,845 | INFO | Crawler finished
+2026-02-18 20:59:19,519 | INFO | Starting crawler from page 3
+2026-02-18 20:59:20,157 | INFO | Crawling page 3 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p3
+2026-02-18 20:59:27,009 | INFO | Page 3 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 20:59:27,169 | INFO | Page 3 | New: 0
+2026-02-18 20:59:30,704 | INFO | Crawling page 4 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p4
+2026-02-18 20:59:35,874 | INFO | Page 4 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 20:59:36,143 | INFO | Page 4 | New: 5
+2026-02-18 20:59:39,049 | INFO | Crawling page 5 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p5
+2026-02-18 20:59:43,746 | INFO | Page 5 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 20:59:43,981 | INFO | Page 5 | New: 12
+2026-02-18 20:59:47,941 | INFO | Crawling page 6 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p6
+2026-02-18 20:59:51,659 | INFO | Page 6 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 20:59:51,903 | INFO | Page 6 | New: 14
+2026-02-18 20:59:56,109 | INFO | Crawling page 7 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p7
+2026-02-18 21:00:00,852 | INFO | Page 7 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:00:01,042 | INFO | Page 7 | New: 15
+2026-02-18 21:00:04,274 | INFO | Crawling page 8 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p8
+2026-02-18 21:00:08,901 | INFO | Page 8 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:00:09,188 | INFO | Page 8 | New: 2
+2026-02-18 21:00:11,794 | INFO | Crawling page 9 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p9
+2026-02-18 21:00:18,200 | INFO | Page 9 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:00:18,417 | INFO | Page 9 | New: 0
+2026-02-18 21:00:20,529 | INFO | Crawling page 10 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p10
+2026-02-18 21:00:27,915 | INFO | Page 10 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:00:28,236 | INFO | Page 10 | New: 0
+2026-02-18 21:00:32,665 | INFO | Crawling page 11 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p11
+2026-02-18 21:00:37,794 | INFO | Page 11 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:00:38,104 | INFO | Page 11 | New: 0
+2026-02-18 21:00:41,326 | INFO | Crawling page 12 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p12
+2026-02-18 21:00:48,058 | INFO | Page 12 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:00:48,410 | INFO | Page 12 | New: 0
+2026-02-18 21:00:52,909 | INFO | Crawling page 13 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p13
+2026-02-18 21:00:59,770 | INFO | Page 13 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:01:00,096 | INFO | Page 13 | New: 8
+2026-02-18 21:01:04,646 | INFO | Crawling page 14 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p14
+2026-02-18 21:01:09,915 | INFO | Page 14 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:01:10,122 | INFO | Page 14 | New: 12
+2026-02-18 21:01:13,769 | INFO | Crawling page 15 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p15
+2026-02-18 21:01:20,301 | INFO | Page 15 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:01:20,626 | INFO | Page 15 | New: 10
+2026-02-18 21:01:25,052 | INFO | Crawling page 16 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p16
+2026-02-18 21:01:31,394 | INFO | Page 16 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:01:31,684 | INFO | Page 16 | New: 12
+2026-02-18 21:01:33,761 | INFO | Crawling page 17 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p17
+2026-02-18 21:01:45,612 | INFO | Page 17 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:01:46,371 | INFO | Page 17 | New: 10
+2026-02-18 21:01:50,913 | INFO | Crawling page 18 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p18
+2026-02-18 21:01:57,086 | INFO | Page 18 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:01:57,307 | INFO | Page 18 | New: 11
+2026-02-18 21:02:02,138 | INFO | Crawling page 19 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p19
+2026-02-18 21:02:07,058 | INFO | Page 19 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:02:07,291 | INFO | Page 19 | New: 12
+2026-02-18 21:02:11,213 | INFO | Crawling page 20 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p20
+2026-02-18 21:02:16,297 | INFO | Page 20 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:02:16,551 | INFO | Page 20 | New: 7
+2026-02-18 21:02:20,667 | INFO | Crawling page 21 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p21
+2026-02-18 21:02:26,910 | INFO | Page 21 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:02:27,185 | INFO | Page 21 | New: 15
+2026-02-18 21:02:31,510 | INFO | Crawling page 22 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p22
+2026-02-18 21:02:36,776 | INFO | Page 22 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:02:37,054 | INFO | Page 22 | New: 11
+2026-02-18 21:02:39,342 | INFO | Crawling page 23 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p23
+2026-02-18 21:02:44,661 | INFO | Page 23 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:02:44,933 | INFO | Page 23 | New: 17
+2026-02-18 21:02:48,814 | INFO | Crawling page 24 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p24
+2026-02-18 21:02:54,219 | INFO | Page 24 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:02:54,418 | INFO | Page 24 | New: 13
+2026-02-18 21:02:58,628 | INFO | Crawling page 25 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p25
+2026-02-18 21:03:04,389 | INFO | Page 25 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:03:04,621 | INFO | Page 25 | New: 17
+2026-02-18 21:03:08,947 | INFO | Crawling page 26 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p26
+2026-02-18 21:03:14,031 | INFO | Page 26 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:03:14,372 | INFO | Page 26 | New: 16
+2026-02-18 21:03:18,459 | INFO | Crawling page 27 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p27
+2026-02-18 21:03:21,427 | INFO | Page 27 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:03:21,559 | INFO | Page 27 | New: 18
+2026-02-18 21:03:25,304 | INFO | Crawling page 28 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p28
+2026-02-18 21:03:28,239 | INFO | Page 28 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:03:28,391 | INFO | Page 28 | New: 16
+2026-02-18 21:03:30,901 | INFO | Crawling page 29 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p29
+2026-02-18 21:03:33,910 | INFO | Page 29 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:03:33,994 | INFO | Page 29 | New: 2
+2026-02-18 21:03:36,898 | INFO | Crawling page 30 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p30
+2026-02-18 21:03:39,852 | INFO | Page 30 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:03:39,971 | INFO | Page 30 | New: 2
+2026-02-18 21:03:43,162 | INFO | Crawling page 31 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p31
+2026-02-18 21:03:46,107 | INFO | Page 31 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:03:46,221 | INFO | Page 31 | New: 9
+2026-02-18 21:03:48,226 | INFO | Crawling page 32 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p32
+2026-02-18 21:03:51,360 | INFO | Page 32 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:03:51,485 | INFO | Page 32 | New: 16
+2026-02-18 21:03:54,143 | INFO | Crawling page 33 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p33
+2026-02-18 21:03:57,027 | INFO | Page 33 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:03:57,149 | INFO | Page 33 | New: 18
+2026-02-18 21:04:00,734 | INFO | Crawling page 34 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p34
+2026-02-18 21:04:03,770 | INFO | Page 34 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:04:03,888 | INFO | Page 34 | New: 16
+2026-02-18 21:04:07,374 | INFO | Crawling page 35 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p35
+2026-02-18 21:04:11,137 | INFO | Page 35 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:04:11,266 | INFO | Page 35 | New: 17
+2026-02-18 21:04:13,489 | INFO | Crawling page 36 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p36
+2026-02-18 21:04:16,548 | INFO | Page 36 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:04:16,683 | INFO | Page 36 | New: 14
+2026-02-18 21:04:21,049 | INFO | Crawling page 37 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p37
+2026-02-18 21:04:25,254 | INFO | Page 37 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:04:25,476 | INFO | Page 37 | New: 19
+2026-02-18 21:04:28,230 | INFO | Crawling page 38 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p38
+2026-02-18 21:04:32,123 | INFO | Page 38 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:04:32,248 | INFO | Page 38 | New: 12
+2026-02-18 21:04:36,570 | INFO | Crawling page 39 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p39
+2026-02-18 21:04:40,170 | INFO | Page 39 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:04:40,287 | INFO | Page 39 | New: 13
+2026-02-18 21:04:44,571 | INFO | Crawling page 40 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p40
+2026-02-18 21:04:48,150 | INFO | Page 40 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:04:48,293 | INFO | Page 40 | New: 13
+2026-02-18 21:04:52,993 | INFO | Crawling page 41 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p41
+2026-02-18 21:04:56,828 | INFO | Page 41 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:04:56,980 | INFO | Page 41 | New: 9
+2026-02-18 21:05:00,220 | INFO | Crawling page 42 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p42
+2026-02-18 21:05:03,976 | INFO | Page 42 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:05:04,129 | INFO | Page 42 | New: 6
+2026-02-18 21:05:06,897 | INFO | Crawling page 43 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p43
+2026-02-18 21:05:10,126 | INFO | Page 43 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:05:10,263 | INFO | Page 43 | New: 6
+2026-02-18 21:05:14,407 | INFO | Crawling page 44 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p44
+2026-02-18 21:05:17,800 | INFO | Page 44 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:05:18,044 | INFO | Page 44 | New: 10
+2026-02-18 21:05:21,253 | INFO | Crawling page 45 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p45
+2026-02-18 21:05:24,414 | INFO | Page 45 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:05:24,543 | INFO | Page 45 | New: 14
+2026-02-18 21:05:27,347 | INFO | Crawling page 46 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p46
+2026-02-18 21:05:30,703 | INFO | Page 46 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:05:30,845 | INFO | Page 46 | New: 10
+2026-02-18 21:05:35,661 | INFO | Crawling page 47 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p47
+2026-02-18 21:05:38,834 | INFO | Page 47 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:05:38,956 | INFO | Page 47 | New: 10
+2026-02-18 21:05:41,074 | INFO | Crawling page 48 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p48
+2026-02-18 21:05:44,432 | INFO | Page 48 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:05:44,570 | INFO | Page 48 | New: 6
+2026-02-18 21:05:48,715 | INFO | Crawling page 49 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p49
+2026-02-18 21:05:51,681 | INFO | Page 49 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:05:51,798 | INFO | Page 49 | New: 11
+2026-02-18 21:05:53,885 | INFO | Crawling page 50 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p50
+2026-02-18 21:05:57,126 | INFO | Page 50 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:05:57,282 | INFO | Page 50 | New: 14
+2026-02-18 21:06:01,925 | INFO | Crawler finished
+2026-02-18 21:22:08,050 | INFO | Crawling page 1 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm
+2026-02-18 21:22:14,371 | INFO | Page 1 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:22:16,946 | INFO | Detail OK 45116155
+2026-02-18 21:25:49,120 | INFO | Crawling page 1 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm
+2026-02-18 21:25:54,186 | INFO | Page 1 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:28:09,441 | INFO | Page 1 | New listings: 0 | Detail written so far: 27
+2026-02-18 21:28:11,490 | INFO | Crawling page 2 | https://batdongsan.com.vn/nha-dat-ban-tp-hcm/p2
+2026-02-18 21:28:14,654 | INFO | Page 2 | Using selector: a.js__product-link-for-product-id | Found: 30
+2026-02-18 21:29:57,386 | INFO | Page 2 | New listings: 0 | Detail written so far: 50
