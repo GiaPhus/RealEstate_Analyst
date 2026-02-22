@@ -1,51 +1,64 @@
 import csv
 import json
 import os
+
 from crawling.raw_detail import scrape_listing
+from pipeline.resources.MinioIO import MinIOClient
 
 INPUT_CSV = "data/listing.csv"
-OUTPUT_JSONL = "data/detail_output.jsonl"
+BATCH_SIZE = 20
 
 
-def load_scraped_urls():
-    scraped = set()
-
-    if not os.path.exists(OUTPUT_JSONL):
-        return scraped
-
-    with open(OUTPUT_JSONL, "r", encoding="utf-8") as f:
-        for line in f:
-            try:
-                record = json.loads(line)
-                scraped.add(record.get("url"))
-            except:
-                continue
-
-    return scraped
+CHECKPOINT_FILE = "checkpoint/detail_from_csv_checkpoint.txt"
+BATCH_SIZE = 100
 
 
+def load_checkpoint():
+    if not os.path.exists(CHECKPOINT_FILE):
+        return 0
+    with open(CHECKPOINT_FILE, "r") as f:
+        return int(f.read().strip())
+
+
+def save_checkpoint(index):
+    with open(CHECKPOINT_FILE, "w") as f:
+        f.write(str(index))
+        
 def run():
-    scraped_urls = load_scraped_urls()
-    print(f"Already scraped: {len(scraped_urls)}")
+    minio_client = MinIOClient()
+
+    batch = []
+    start_index = load_checkpoint()
+    print(f"Resume from index: {start_index}")
 
     with open(INPUT_CSV, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
 
-        for row in reader:
-            url = row["url"]
-            if url in scraped_urls:
-                print(f"Skip: {url}")
+        for i, row in enumerate(reader):
+
+            if i < start_index:
                 continue
-            print(f"Scraping: {url}")
+
+            url = row["url"]
+            print(f"[{i}] Scraping: {url}")
 
             try:
                 data = scrape_listing(url, headless=False)
+                batch.append(data)
 
-                with open(OUTPUT_JSONL, "a", encoding="utf-8") as out:
-                    out.write(json.dumps(data, ensure_ascii=False) + "\n")
+                if len(batch) >= BATCH_SIZE:
+                    minio_client.upload_json_batch(batch)
+                    save_checkpoint(i + 1)
+                    batch.clear()
 
             except Exception as e:
                 print(f"Error: {e}")
+
+    if batch:
+        minio_client.upload_json_batch(batch)
+        save_checkpoint(i + 1)
+
+    print("Done.")
 
 
 if __name__ == "__main__":

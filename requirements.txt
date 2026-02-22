@@ -1,0 +1,7 @@
+selenium
+undetected-chromedriver
+webdriver-manager
+beautifulsoup4
+tqdm
+boto3
+botocore
