@@ -44,16 +44,26 @@ def setup_logger():
 
 def init_driver():
 
+    display = Display(visible=0, size=(1920, 1080))
+    display.start()
+
     options = uc.ChromeOptions()
+    
+    # KHI DÙNG VIRTUAL DISPLAY, TA ĐỂ HEADLESS = FALSE
+    # Nhưng vì chạy trong màn hình ảo nên nó sẽ không hiện cửa sổ ra ngoài
+    
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
+    
+    # Batdongsan.com.vn rất nhạy cảm với version, nên để auto hoặc đúng bản chrome trong docker
+    # driver = uc.Chrome(options=options)
+    driver = uc.Chrome(version_main=145, options=options)
 
-    options.binary_location = "/usr/bin/google-chrome"
-    options.add_argument("--start-maximized")
 
-    driver = uc.Chrome(
-        options=options,
-        version_main=145
-    )
-
+    # Lưu lại display vào đối tượng driver để tí nữa đóng cho sạch
+    driver.virtual_display = display
+    
     return driver
 
 def init_csv():
@@ -184,7 +194,7 @@ def main():
     )
 
     page = start_page
-
+    
     try:
 
         while True:

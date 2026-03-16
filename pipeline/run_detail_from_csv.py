@@ -5,9 +5,7 @@ import os
 from crawling.raw_detail import scrape_listing
 from pipeline.resources.MinioIO import MinIOClient
 
-INPUT_CSV = "data/listing.csv"
-BATCH_SIZE = 20
-
+INPUT_CSV = "data/listing_new.csv"
 
 CHECKPOINT_FILE = "checkpoint/detail_from_csv_checkpoint.txt"
 BATCH_SIZE = 100

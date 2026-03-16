@@ -8,14 +8,32 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
 
+import undetected_chromedriver as uc
+from pyvirtualdisplay import Display # pip install pyvirtualdisplay
 
 def create_driver(headless=False):
+    # Nếu đang chạy trong môi trường Linux/Docker, khởi tạo màn hình ảo
+    # Điều này cho phép ta chạy headless=False mà không bị lỗi "No display found"
+    display = Display(visible=0, size=(1920, 1080))
+    display.start()
+
     options = uc.ChromeOptions()
-    options.headless = headless
+    
+    # KHI DÙNG VIRTUAL DISPLAY, TA ĐỂ HEADLESS = FALSE
+    # Nhưng vì chạy trong màn hình ảo nên nó sẽ không hiện cửa sổ ra ngoài
+    
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1920,1080")
-    driver = uc.Chrome(options=options)
+    
+    # Batdongsan.com.vn rất nhạy cảm với version, nên để auto hoặc đúng bản chrome trong docker
+    # driver = uc.Chrome(options=options)
+    driver = uc.Chrome(version_main=145, options=options)
+
+
+    # Lưu lại display vào đối tượng driver để tí nữa đóng cho sạch
+    driver.virtual_display = display
+    
     return driver
 
 def extract_listing_id_from_url(url):
@@ -246,7 +264,7 @@ def parse_map_coordinates(soup):
     return result
 
 
-def scrape_listing(url, headless=False):
+def scrape_listing(url, headless):
     driver = create_driver(headless=headless)
     load_page(driver, url)
     scroll_middle(driver)
